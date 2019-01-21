@@ -30,6 +30,7 @@ class ToDoListViewController: UITableViewController {
         
        if let items = defaults.array(forKey: "TodoListArray") as? [Item]{
             itemArray = items
+        }
     }
     
     //MARK - TableView Datasource Methods
